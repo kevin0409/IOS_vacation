@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4167FD72A5D26390038BDD9 /* MOoreControlsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4167FD62A5D26390038BDD9 /* MOoreControlsApp.swift */; };
+		D4167FD92A5D26390038BDD9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4167FD82A5D26390038BDD9 /* ContentView.swift */; };
+		D4167FDB2A5D263B0038BDD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4167FDA2A5D263B0038BDD9 /* Assets.xcassets */; };
+		D4167FDE2A5D263B0038BDD9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4167FDD2A5D263B0038BDD9 /* Preview Assets.xcassets */; };
+		D4167FE82A5D263B0038BDD9 /* MOoreControlsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4167FE72A5D263B0038BDD9 /* MOoreControlsTests.swift */; };
+		D4167FF22A5D263B0038BDD9 /* MOoreControlsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4167FF12A5D263B0038BDD9 /* MOoreControlsUITests.swift */; };
+		D4167FF42A5D263B0038BDD9 /* MOoreControlsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4167FF32A5D263B0038BDD9 /* MOoreControlsUITestsLaunchTests.swift */; };
+		D41680012A5D34A80038BDD9 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41680002A5D34A80038BDD9 /* DetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4167FE42A5D263B0038BDD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4167FCB2A5D26390038BDD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4167FD22A5D26390038BDD9;
+			remoteInfo = MOoreControls;
+		};
+		D4167FEE2A5D263B0038BDD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4167FCB2A5D26390038BDD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4167FD22A5D26390038BDD9;
+			remoteInfo = MOoreControls;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D4167FD32A5D26390038BDD9 /* MOoreControls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MOoreControls.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4167FD62A5D26390038BDD9 /* MOoreControlsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOoreControlsApp.swift; sourceTree = "<group>"; };
+		D4167FD82A5D26390038BDD9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D4167FDA2A5D263B0038BDD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4167FDD2A5D263B0038BDD9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D4167FE32A5D263B0038BDD9 /* MOoreControlsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MOoreControlsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4167FE72A5D263B0038BDD9 /* MOoreControlsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOoreControlsTests.swift; sourceTree = "<group>"; };
+		D4167FED2A5D263B0038BDD9 /* MOoreControlsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MOoreControlsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4167FF12A5D263B0038BDD9 /* MOoreControlsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOoreControlsUITests.swift; sourceTree = "<group>"; };
+		D4167FF32A5D263B0038BDD9 /* MOoreControlsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOoreControlsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D41680002A5D34A80038BDD9 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4167FD02A5D26390038BDD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4167FE02A5D263B0038BDD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4167FEA2A5D263B0038BDD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4167FCA2A5D26390038BDD9 = {
+			isa = PBXGroup;
+			children = (
+				D4167FD52A5D26390038BDD9 /* MOoreControls */,
+				D4167FE62A5D263B0038BDD9 /* MOoreControlsTests */,
+				D4167FF02A5D263B0038BDD9 /* MOoreControlsUITests */,
+				D4167FD42A5D26390038BDD9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4167FD42A5D26390038BDD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4167FD32A5D26390038BDD9 /* MOoreControls.app */,
+				D4167FE32A5D263B0038BDD9 /* MOoreControlsTests.xctest */,
+				D4167FED2A5D263B0038BDD9 /* MOoreControlsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4167FD52A5D26390038BDD9 /* MOoreControls */ = {
+			isa = PBXGroup;
+			children = (
+				D4167FD62A5D26390038BDD9 /* MOoreControlsApp.swift */,
+				D4167FD82A5D26390038BDD9 /* ContentView.swift */,
+				D4167FDA2A5D263B0038BDD9 /* Assets.xcassets */,
+				D4167FDC2A5D263B0038BDD9 /* Preview Content */,
+				D41680002A5D34A80038BDD9 /* DetailView.swift */,
+			);
+			path = MOoreControls;
+			sourceTree = "<group>";
+		};
+		D4167FDC2A5D263B0038BDD9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D4167FDD2A5D263B0038BDD9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D4167FE62A5D263B0038BDD9 /* MOoreControlsTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4167FE72A5D263B0038BDD9 /* MOoreControlsTests.swift */,
+			);
+			path = MOoreControlsTests;
+			sourceTree = "<group>";
+		};
+		D4167FF02A5D263B0038BDD9 /* MOoreControlsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D4167FF12A5D263B0038BDD9 /* MOoreControlsUITests.swift */,
+				D4167FF32A5D263B0038BDD9 /* MOoreControlsUITestsLaunchTests.swift */,
+			);
+			path = MOoreControlsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4167FD22A5D26390038BDD9 /* MOoreControls */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4167FF72A5D263B0038BDD9 /* Build configuration list for PBXNativeTarget "MOoreControls" */;
+			buildPhases = (
+				D4167FCF2A5D26390038BDD9 /* Sources */,
+				D4167FD02A5D26390038BDD9 /* Frameworks */,
+				D4167FD12A5D26390038BDD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MOoreControls;
+			productName = MOoreControls;
+			productReference = D4167FD32A5D26390038BDD9 /* MOoreControls.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4167FE22A5D263B0038BDD9 /* MOoreControlsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4167FFA2A5D263B0038BDD9 /* Build configuration list for PBXNativeTarget "MOoreControlsTests" */;
+			buildPhases = (
+				D4167FDF2A5D263B0038BDD9 /* Sources */,
+				D4167FE02A5D263B0038BDD9 /* Frameworks */,
+				D4167FE12A5D263B0038BDD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4167FE52A5D263B0038BDD9 /* PBXTargetDependency */,
+			);
+			name = MOoreControlsTests;
+			productName = MOoreControlsTests;
+			productReference = D4167FE32A5D263B0038BDD9 /* MOoreControlsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D4167FEC2A5D263B0038BDD9 /* MOoreControlsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4167FFD2A5D263B0038BDD9 /* Build configuration list for PBXNativeTarget "MOoreControlsUITests" */;
+			buildPhases = (
+				D4167FE92A5D263B0038BDD9 /* Sources */,
+				D4167FEA2A5D263B0038BDD9 /* Frameworks */,
+				D4167FEB2A5D263B0038BDD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4167FEF2A5D263B0038BDD9 /* PBXTargetDependency */,
+			);
+			name = MOoreControlsUITests;
+			productName = MOoreControlsUITests;
+			productReference = D4167FED2A5D263B0038BDD9 /* MOoreControlsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4167FCB2A5D26390038BDD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					D4167FD22A5D26390038BDD9 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					D4167FE22A5D263B0038BDD9 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = D4167FD22A5D26390038BDD9;
+					};
+					D4167FEC2A5D263B0038BDD9 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = D4167FD22A5D26390038BDD9;
+					};
+				};
+			};
+			buildConfigurationList = D4167FCE2A5D26390038BDD9 /* Build configuration list for PBXProject "MOoreControls" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4167FCA2A5D26390038BDD9;
+			productRefGroup = D4167FD42A5D26390038BDD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4167FD22A5D26390038BDD9 /* MOoreControls */,
+				D4167FE22A5D263B0038BDD9 /* MOoreControlsTests */,
+				D4167FEC2A5D263B0038BDD9 /* MOoreControlsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4167FD12A5D26390038BDD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4167FDE2A5D263B0038BDD9 /* Preview Assets.xcassets in Resources */,
+				D4167FDB2A5D263B0038BDD9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4167FE12A5D263B0038BDD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4167FEB2A5D263B0038BDD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4167FCF2A5D26390038BDD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4167FD92A5D26390038BDD9 /* ContentView.swift in Sources */,
+				D41680012A5D34A80038BDD9 /* DetailView.swift in Sources */,
+				D4167FD72A5D26390038BDD9 /* MOoreControlsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4167FDF2A5D263B0038BDD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4167FE82A5D263B0038BDD9 /* MOoreControlsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4167FE92A5D263B0038BDD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4167FF22A5D263B0038BDD9 /* MOoreControlsUITests.swift in Sources */,
+				D4167FF42A5D263B0038BDD9 /* MOoreControlsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4167FE52A5D263B0038BDD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4167FD22A5D26390038BDD9 /* MOoreControls */;
+			targetProxy = D4167FE42A5D263B0038BDD9 /* PBXContainerItemProxy */;
+		};
+		D4167FEF2A5D263B0038BDD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4167FD22A5D26390038BDD9 /* MOoreControls */;
+			targetProxy = D4167FEE2A5D263B0038BDD9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D4167FF52A5D263B0038BDD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D4167FF62A5D263B0038BDD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4167FF82A5D263B0038BDD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MOoreControls/Preview Content\"";
+				DEVELOPMENT_TEAM = 54B2LPSKPV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.ac.tukorea.Parkseungho.MOoreControls;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D4167FF92A5D263B0038BDD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MOoreControls/Preview Content\"";
+				DEVELOPMENT_TEAM = 54B2LPSKPV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.ac.tukorea.Parkseungho.MOoreControls;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D4167FFB2A5D263B0038BDD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 54B2LPSKPV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.ac.tukorea.Parkseungho.MOoreControlsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MOoreControls.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MOoreControls";
+			};
+			name = Debug;
+		};
+		D4167FFC2A5D263B0038BDD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 54B2LPSKPV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.ac.tukorea.Parkseungho.MOoreControlsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MOoreControls.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MOoreControls";
+			};
+			name = Release;
+		};
+		D4167FFE2A5D263B0038BDD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 54B2LPSKPV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.ac.tukorea.Parkseungho.MOoreControlsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MOoreControls;
+			};
+			name = Debug;
+		};
+		D4167FFF2A5D263B0038BDD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 54B2LPSKPV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.ac.tukorea.Parkseungho.MOoreControlsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MOoreControls;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4167FCE2A5D26390038BDD9 /* Build configuration list for PBXProject "MOoreControls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4167FF52A5D263B0038BDD9 /* Debug */,
+				D4167FF62A5D263B0038BDD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4167FF72A5D263B0038BDD9 /* Build configuration list for PBXNativeTarget "MOoreControls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4167FF82A5D263B0038BDD9 /* Debug */,
+				D4167FF92A5D263B0038BDD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4167FFA2A5D263B0038BDD9 /* Build configuration list for PBXNativeTarget "MOoreControlsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4167FFB2A5D263B0038BDD9 /* Debug */,
+				D4167FFC2A5D263B0038BDD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4167FFD2A5D263B0038BDD9 /* Build configuration list for PBXNativeTarget "MOoreControlsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4167FFE2A5D263B0038BDD9 /* Debug */,
+				D4167FFF2A5D263B0038BDD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4167FCB2A5D26390038BDD9 /* Project object */;
+}
